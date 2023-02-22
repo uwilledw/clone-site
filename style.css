@@ -1,0 +1,14 @@
+.img-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.leaf-image {
+    background-image: url(https://images.unsplash.com/photo-1623039925698-1f96229b1a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+}

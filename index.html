@@ -4,12 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clone Site</title>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
     <link rel="stylesheet" href="style.css">
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
 </head>
-<body>
-    <header class="bg-danger">what</header>
+
+
+<body class="debug">
+    <header class="container-fluid">
+        <!-- SECTION nav bar -->
+        <nav class="row justify-content-center">
+            <div class="col-6 d-flex justify-content-center">
+                <img class="img-fluid img-circle" src="https://media.istockphoto.com/id/1413150175/photo/panorama-60-mpix-xxxxl-size-of-beautiful-mount-ama-dablam-in-himalayas-nepal.jpg?b=1&s=170667a&w=0&k=20&c=uLpwXHYgagdG5hm693LjCXUVCWOupPtKL-rf-_s0-4s=" alt="mountain">
+            </div>
+            <div class="col-6">
+                <section class="row px-5 h-100 align-items-center">
+                    <div class="col-1">
+                        <p>work</p>
+                    </div>
+                    <div class="col-1">
+                        <p>about</p>
+                    </div>
+                    <div class="col-1">
+                        <p>expertise</p>
+                    </div>
+                    <div class="col-1">
+                        <p>blog</p>
+                    </div>
+                    <div class="col-1">
+                        <p>store</p>
+                    </div>
+                    <div class="col-1">
+                        <p>contact</p>
+                    </div>
+                </section>
+            </div>
+            
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <!-- SECTION leaf image -->
+        <section class="row leaf-image align-items-center justify-content-center">
+            <div class="col-8 p-4">
+                <h1>Crown Maple</h1>
+                <p>Not All Crowns Are Created Equal</p>
+            </div>
+        </section>
+        <!-- SECTION convincing statement -->
+        <section class="row justify-content-center bg-dark text-light py-5">
+            <div class="col-8 fs-1">
+                <p>We are artists who specialize in branding and packaging design. We help brands present their stories in ways that are effective and honest, novel and established.</p>
+            </div>
+        </section>
+        <!-- SECTION blog office expertise -->
+        <section class="row">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <img src="" alt="">
+                <p>New Work:MerryStockings</p>
+            </div>
+            <div class="col-2">
+                
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
