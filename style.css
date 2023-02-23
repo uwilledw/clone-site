@@ -1,6 +1,6 @@
 .img-circle{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50em;
     object-fit: cover;
     object-position: center;
@@ -8,7 +8,35 @@
 
 .leaf-image {
     background-image: url(https://images.unsplash.com/photo-1623039925698-1f96229b1a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    min-height: 30vh;
+    min-height: 50vh;
     background-size: cover;
     background-position: center;
+}
+
+.needle-image {
+    background-image: url(https://images.unsplash.com/uploads/1412443967017d95e2723/2919e13b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGluZSUyMG5lZWRsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.office-image {
+    background-image: url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.yellow-image {
+    background-image: url(https://images.unsplash.com/photo-1571456653714-a8db063a3e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8eWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.address {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
